@@ -7,7 +7,6 @@
 
 exports.ping = require('./ping');
 exports.jsp = require('./jsp');
-exports.whozebest = require('./whozebest');
 exports.echo = require('./echo');
 exports.about = require('./about');
 exports.deleteafter = require('./deleteafter');
