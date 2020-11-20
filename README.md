@@ -7,8 +7,18 @@ A discord bot made by the *Toulouse Ynov Campus B1 Informatique G2 (2020/2021)* 
 >(2020/2021)* pour améliorer nos compétences en **GIT** et **JavaScript**/**NodeJS**
 
 ## Commands
-- `ping` - Bot reply *pong*
-- `echo` - Bot send back the arguments
+- `about` - Gives information about the bot
+- `avatar` - Bot gives the avatar of the command author
+- `chuck` - Bot gives a joke related to Chuck Norris
+- `date` - Bot gives the date at the desired location
+- `deleteafter` - Bot deletes the message after the given delay
+- `echo` - Bot sends back the arguments
+- `ping` - Bot replies *pong*
+- `random` - Bot gives a random number, between the specified bounds if they exist
+- `sha1` - Bot encrypts the given message in SHA-1
+- `twitter` - Bot gives the *Twitter* url
+- `weather` - Bot gives the weather at the desired location
+- `clear [amount]` - Bot delete the selected amount of messages (needs MANAGE_MESSAGES permission)
 
 ---
 
@@ -23,7 +33,7 @@ To get the bot token send a message to [@zaosoula](https://github.com/zaosoula)
 
 ## Local Installation
 
-- Install [node.js](https://nodejs.org/en/) (Only test on *7.4.0*)
+- Install [node.js](https://nodejs.org/en/)
 - Clone the repo with Github Desktop or use ``git clone``
 - [cd](https://en.wikipedia.org/wiki/Cd_%28command%29) to the directory and run `npm install`
 - Run `node index.js`
